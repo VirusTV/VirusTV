@@ -10,7 +10,7 @@ const char *libName = "libil2cpp.so";
 
 JNIEXPORT jstring JNICALL
 Java_il2cpp_typefaces_Menu_reneim(JNIEnv *env, jobject activityObject) {
-    return env->NewStringUTF("tenmi free 0.19.3");
+    return env->NewStringUTF("tenmi free 0.23.1");
 }
 JNIEXPORT jobjectArray  JNICALL Java_il2cpp_Main_getFeatures(JNIEnv *env, jobject activityObject) {
 	jobjectArray ret;
